@@ -194,7 +194,7 @@
                     <a data-flickr-embed="true"
                         href="https://www.flickr.com/search/?text&#x3D;cheetah&amp;license&#x3D;2%2C3%2C4%2C5%2C6%2C9&amp;sort&#x3D;relevance"
                         title="Flickr Search"><img src="https://live.staticflickr.com/5222/5636712193_5aac3662aa.jpg"
-                            width="500" height="375" alt="Flickr Search"></a>
+                            width="100%" height="375" alt="Flickr Search"></a>
                     <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
                 </div>
 
@@ -272,6 +272,20 @@
                 </div>
             </div>
         </div>
+        <div class="to-animals">
+            <a href="./animals.html">
+                <button class="animals to">
+                    Animals
+                </button>
+            </a>
+        </div>
+        <div class="to-insects">
+            <a href="./insects.html">
+                <button class="insects to">
+                    insects
+                </button>
+            </a>
+        </div>
         <div class="totop">
             <a href="#info">
                 <button class="read-more">
@@ -279,36 +293,6 @@
                 </button>
             </a>
         </div>
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("demo");
-                var captionText = document.getElementById("caption");
-                if (n > slides.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = slides.length }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-                captionText.innerHTML = dots[slideIndex - 1].alt;
-            }
-        </script>
         <script src="./js/jquery3.5.1.main.js"></script>
         <script src="./js/main.js"></script>
 </body>

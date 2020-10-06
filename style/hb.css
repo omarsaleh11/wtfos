@@ -262,3 +262,22 @@ img {
 /* slideshow */
 /* loader */
 /* loader */
+.to {
+  position: fixed;
+  right: 0;
+  width: 100px;
+  padding: 1em;
+  background-color: crimson;
+  color: rgb(241, 228, 228);
+  border: 1em;
+  cursor: pointer;
+}
+.animals {
+  top: 50%;
+}
+.to:hover {
+  background-color: #5e5c58;
+}
+.insects {
+  top: 55%;
+}
