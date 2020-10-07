@@ -90,7 +90,7 @@ section ul li:nth-child(2) a:before {
 }
 section ul li:nth-child(3) a:before {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
-    url("../images/background4.webp");
+    url("../images/birds-bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
