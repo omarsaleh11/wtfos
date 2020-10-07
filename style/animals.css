@@ -122,5 +122,6 @@ a {
 @media screen and (max-width:500px){
   .animals-card{
     align-iltems: center;
+    justify-content: center;
   }
 }
