@@ -47,7 +47,7 @@ a {
 .animals-card {
   margin: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 10rem));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 17rem));
   grid-gap: 2rem;
 }
 .card {
