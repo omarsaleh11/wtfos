@@ -100,4 +100,25 @@ a {
   -webkit-text-fill-color: transparent;
 }
 /* mantis */
+/* black widow */
+.b_wdw:hover h2 {
+  background: rgb(42, 37, 33);
+  background: linear-gradient(
+    0deg,
+    rgba(42, 37, 33, 1) 23%,
+    rgba(156, 39, 14, 1) 50%,
+    rgba(42, 37, 33, 1) 70%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* black widow */
 /* end of contant */
+@media screen and (max-width:500px){
+  .animals-card{
+    align-iltems: center;
+    justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 18rem));
+  }
+}
