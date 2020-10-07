@@ -144,18 +144,17 @@ img {
     max-width: 100%;
   }
 }
-.fifth-info {
-  margin-bottom: 0;
-}
+
 .vid-img {
   width: 50%;
   margin: auto;
 }
 .to {
   position: fixed;
-  right: 0;
+  right: -40px;
   width: 100px;
   padding: 1em;
+  padding-left: 0.5em;
   background-color: crimson;
   color: rgb(241, 228, 228);
   border: 1em;
@@ -165,8 +164,15 @@ img {
   top: 50%;
 }
 .to:hover {
-  background-color: #5e5c58;
+  background-color: #3e2612;
 }
 .insects {
   top: 55%;
+}
+.sec-info:hover,
+.main-info:hover {
+  box-shadow: 0 16px 24px 0 #a8733a;
+}
+.info:hover h1 {
+  color: #a8733a;
 }

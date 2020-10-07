@@ -5,7 +5,6 @@ open.addEventListener("click", function () {
   var overlay = document.querySelector(".overlay");
   var nav = document.querySelector("nav");
   var icon = document.querySelector(".menu-toggle i");
-
   overlay.classList.toggle("menu-open");
   nav.classList.toggle("menu-open");
 
@@ -26,6 +25,7 @@ window.onload = function () {
     loader.style.opacity = "0";
     setTimeout(function () {
       loader.style.display = "none";
+      loader.style.overflow = "hidden";
     }, 500);
   }, 1500);
 };

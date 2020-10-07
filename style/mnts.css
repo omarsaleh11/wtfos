@@ -166,9 +166,10 @@ img {
 /* end of contant */
 .to {
   position: fixed;
-  right: 0;
+  right: -40px;
   width: 100px;
   padding: 1em;
+  padding-left: 0.5em;
   background-color: crimson;
   color: rgb(241, 228, 228);
   border: 1em;
@@ -178,7 +179,7 @@ img {
   top: 50%;
 }
 .to:hover {
-  background-color: #5e5c58;
+  background-color: #81b364;
 }
 .insects {
   top: 55%;

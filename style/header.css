@@ -107,7 +107,7 @@ nav ul li a::after {
 }
 
 .overlay {
-  position: fixed;
+  position: sticky;
   right: 0;
   left: 0;
   top: 0;
@@ -145,6 +145,8 @@ nav ul li a:hover::after {
     align-items: center;
     height: 100vh;
     text-align: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   nav ul {
