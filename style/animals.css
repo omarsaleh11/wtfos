@@ -119,3 +119,9 @@ a {
 }
 /* Black Rhinoceros */
 /* end of contant */
+@media screen and (max-width:500px){
+  .animals-card{
+    align-iltems: center;
+    display: block;
+  }
+}
