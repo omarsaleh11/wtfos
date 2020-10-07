@@ -123,5 +123,6 @@ a {
   .animals-card{
     align-iltems: center;
     justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 18rem));
   }
 }
