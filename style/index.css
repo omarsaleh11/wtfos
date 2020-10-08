@@ -195,6 +195,19 @@ main {
   -webkit-text-fill-color: transparent;
 }
 /* black widow */
+/* african lion */
+.african-lion:hover h2 {
+  background: rgb(65, 30, 15);
+  background: linear-gradient(
+    18deg,
+    rgba(65, 30, 15, 1) 12%,
+    rgba(184, 127, 54, 1) 48%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* african lion */
 /* end of contant */
 @media screen and (max-width: 500px) {
   .animals-card {
