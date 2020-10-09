@@ -131,6 +131,16 @@ a {
   -webkit-text-fill-color: transparent;
 }
 /* african lion */
+/* Black Rhinoceros */
+/* bison */
+.bison:hover h2 {
+  background: #2f251e;
+  background: linear-gradient(18deg, #2f251e 52%, #9e816a 88%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* bison */
 /* end of contant */
 @media screen and (max-width: 500px) {
   .animals-card {

@@ -115,10 +115,10 @@ a {
 }
 /* black widow */
 /* end of contant */
-@media screen and (max-width:500px){
-  .animals-card{
-    align-iltems: center;
+@media screen and (max-width: 500px) {
+  .animals-card {
+    align-items: center;
     justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 18rem));
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 18rem));
   }
 }
