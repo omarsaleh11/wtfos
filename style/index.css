@@ -217,6 +217,25 @@ main {
   -webkit-text-fill-color: transparent;
 }
 /* bison */
+/* zebra */
+.zebra:hover h2 {
+  background: rgb(208, 202, 195);
+  background: linear-gradient(
+    297deg,
+    rgba(208, 202, 195, 1) 12.5%,
+    rgba(45, 39, 38, 1) 25%,
+    rgba(208, 202, 195, 1) 37.5%,
+    rgba(45, 39, 38, 1) 50%,
+    rgba(208, 202, 195, 1) 62.5%,
+    rgba(45, 39, 38, 1) 75%,
+    rgba(208, 202, 195, 1) 87.5%,
+    rgba(45, 39, 38, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* zebra */
 /* end of contant */
 @media screen and (max-width: 500px) {
   .animals-card {
