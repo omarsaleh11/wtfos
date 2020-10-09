@@ -236,6 +236,20 @@ main {
   -webkit-text-fill-color: transparent;
 }
 /* zebra */
+/* secretary bird */
+.secretary-bird:hover h2 {
+  background: rgb(19, 20, 16);
+  background: linear-gradient(
+    312deg,
+    rgba(19, 20, 16, 1) 51%,
+    rgba(198, 201, 200, 1) 72%,
+    rgba(158, 58, 23, 1) 97%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* secretary bird */
 /* end of contant */
 @media screen and (max-width: 500px) {
   .animals-card {
