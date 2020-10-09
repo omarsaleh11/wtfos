@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Roboto Cn", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/bald-eagle-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+.overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/bald-eagle-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+#slides .slide_4 li {
+  line-height: 3rem;
+  font-size: 1.5rem;
+  list-style-type: none;
+  padding-left: 2em;
+}
+/* start of contant */
+main {
+  width: 90%;
+  font-family: "Acme", sans-serif;
+}
+.main-content {
+  margin: 6em auto;
+  padding: 2em 0em;
+  font-size: 1.77rem;
+  text-align: left;
+}
+.main-content p {
+  padding: 0.5em;
+}
+.info {
+  margin-bottom: 1em;
+}
+
+.main-content h1,
+.main-content h3 {
+  color: rgb(241, 228, 228);
+  letter-spacing: 4px;
+  margin-bottom: 0.7em;
+  max-width: 65ch;
+}
+h2 {
+  padding: 0 1em;
+}
+.main-info {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.884);
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+}
+.sec-info:hover,
+.main-info:hover {
+  box-shadow: 0 16px 24px 0 #caa988;
+}
+.info:hover h1 {
+  color: #caa988;
+}
+
+img {
+  padding-top: 2em;
+  width: 100%;
+}
+.main-info p {
+  margin: 0 0.3em;
+}
+.main-info h1 {
+  padding-top: 1em;
+}
+.sec-info p {
+  margin-left: 1em;
+  padding-bottom: 2em;
+  margin-right: 0.5em;
+}
+.sec-info h1 {
+  margin-left: 1em;
+  padding-top: 1em;
+}
+.sec-info {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.884);
+  margin: 2em auto;
+  padding: 0 1em;
+}
+.info span {
+  color: rgb(241, 228, 228);
+}
+.info h1 {
+  color: crimson;
+}
+
+.main-content p {
+  color: white;
+  line-height: 2.3rem;
+  letter-spacing: 2px;
+  max-width: 65ch;
+  font-family: "Piazzolla", serif;
+}
+.like {
+  justify-content: space-around;
+  display: inline-block;
+}
+.main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.read-more {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  background-color: crimson;
+  color: rgb(241, 228, 228);
+  /* border-radius: 20%; */
+  border: 1em;
+  cursor: pointer;
+}
+
+.read-more:hover {
+  background-color: #251e1b;
+  color: rgb(241, 228, 228);
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+  .main-info,
+  .third-info,
+  .frth-info,
+  .fifth-info {
+    width: fit-content;
+  }
+  .sec-info {
+    max-width: 100%;
+  }
+}
+.fifth-info {
+  margin-bottom: 0;
+}
+.vid-img {
+  width: 50%;
+  margin: auto;
+}
+.vid-img:hover {
+  color: #caa988;
+}
+/* end of contant */
+.to {
+  position: fixed;
+  right: -50px;
+  width: 100px;
+  padding: 1em;
+  padding-left: 0.5em;
+  background-color: rgba(220, 20, 60, 0.288);
+  color: rgb(241, 228, 228);
+  border: 1em;
+  cursor: pointer;
+}
+.animals {
+  top: 12%;
+}
+.to:hover {
+  background-color: #251e1b;
+  right: 0;
+}
+.insects {
+  top: 20%;
+}
+.birds {
+  top: 28%;
+}
+h1:hover,
+p:hover {
+  transform: scale(1.05);
+}

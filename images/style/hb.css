@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Roboto Cn", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/hb-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+.overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/hb-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+/* start of contant */
+main {
+  width: 90%;
+  font-family: "Acme", sans-serif;
+}
+.main-content {
+  margin: 6em auto;
+  padding: 2em 0;
+  font-size: 1.77rem;
+  text-align: left;
+}
+.info {
+  margin-bottom: 1em;
+}
+
+.main-content h1,
+.main-content h3 {
+  color: rgb(241, 228, 228);
+  letter-spacing: 4px;
+  margin-bottom: 0.7em;
+  max-width: 65ch;
+}
+.main-info {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.884);
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+}
+.sec-info:hover,
+.third-info:hover,
+.frth-info:hover,
+.fifth-info:hover,
+.main-info:hover {
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.2);
+}
+img {
+  padding-top: 2em;
+  width: 100%;
+}
+.main-info p {
+  margin: 0 0.3em;
+}
+.main-info h1 {
+  padding-top: 1em;
+}
+.sec-info p,
+.third-info p,
+.frth-info p,
+.fifth-info p {
+  margin-left: 1em;
+  padding-bottom: 2em;
+  margin-right: 0.5em;
+}
+.sec-info h1,
+.third-info h1,
+.frth-info h1,
+.fifth-info h1 {
+  margin-left: 1em;
+  padding-top: 1em;
+}
+.sec-info,
+.third-info,
+.frth-info,
+.fifth-info {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.884);
+  margin: 2em auto;
+}
+.info span {
+  color: rgb(241, 228, 228);
+}
+.info h1 {
+  color: crimson;
+}
+
+.main-content p {
+  color: white;
+  line-height: 2.3rem;
+  letter-spacing: 2px;
+  max-width: 65ch;
+  font-family: "Piazzolla", serif;
+}
+.like {
+  justify-content: space-around;
+  display: inline-block;
+}
+.main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.main-info:hover,
+.sec-info:hover,
+.third-info:hover,
+.frth-info:hover,
+.fifth-info:hover {
+  box-shadow: 0 16px 24px 0 #c3bdb6;
+}
+
+.read-more {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  background-color: crimson;
+  color: rgb(241, 228, 228);
+  /* border-radius: 20%; */
+  border: 1em;
+  cursor: pointer;
+}
+.read-more:hover {
+  background-color: rgb(241, 228, 228);
+}
+.read-more:hover {
+  color: crimson;
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+  .main-info,
+  .third-info,
+  .frth-info,
+  .fifth-info {
+    width: fit-content;
+  }
+  .sec-info {
+    max-width: 100%;
+  }
+}
+.fifth-info {
+  margin-bottom: 0;
+}
+/* end of contant */
+/* slideshow */
+div h2 {
+  font-size: 3rem;
+  color: crimson;
+  margin-bottom: 1em;
+}
+.slideshow {
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: crimson;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgb(241, 228, 228);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 0.5em 1.6em;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+  margin-bottom: 10em;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* slideshow */
+/* loader */
+/* loader */
+.to {
+  position: fixed;
+  right: -40px;
+  width: 100px;
+  padding: 1em;
+  padding-left: 0.5em;
+  background-color: crimson;
+  color: rgb(241, 228, 228);
+  border: 1em;
+  cursor: pointer;
+}
+.animals {
+  top: 50%;
+}
+.to:hover {
+  background-color: #282527;
+}
+.insects {
+  top: 55%;
+}
