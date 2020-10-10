@@ -158,6 +158,14 @@ a {
   -webkit-text-fill-color: transparent;
 }
 /* zebra */
+/* Leopard */
+.Leopard:hover h2 {
+  background: linear-gradient(to top, #cfab86, #a8733a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Leopard */
 /* end of contant */
 @media screen and (max-width: 500px) {
   .animals-card {
